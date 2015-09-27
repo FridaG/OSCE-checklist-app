@@ -1,0 +1,66 @@
+<template name="examView">
+
+<div class="row" style="min-height:400px">
+<div class="column">
+<p>&nbsp;<br /></p>
+<p>&nbsp;</p>
+<h1>{{name}}</h1>
+<h2>click the skills you've performed to check off the skills as you practice!</h2>
+ <button class="ui red button showMistakes">Show Mistakes</button>
+
+ <button class="ui primary button reset"> Reset Exam
+  </button>
+
+
+{{#each sections}}
+ <div class="osceSection {{completedSection ../name sectionName}}" id="{{sectionIdSet ../name sectionName}}">
+ 
+  <h3>{{sectionName}} </h3>
+  
+  
+  <p>
+  <div class="ui list">
+  {{#each sectionItems}}
+
+  {{#if this.subsection}}
+  <div class="item osceItem subsection"><span>{{this.subsection}}</span></div>
+    <p>
+    {{#each this.subsectionItems}}
+    <span class="osceItem {{completedTask ../subsection this}}" id="{{itemId ../subsection this}}" sectionId="{{sectionIdSet ../../../name ../../sectionName}}">{{{this}}}{{#unless last ../subsectionItems this}},&nbsp;{{/unless}}</span>&nbsp;
+
+    {{/each}}
+    </p>
+
+    {{else}}
+     <div class="item osceItem {{completedTask ../sectionName this}}" id="{{itemId ../sectionName this}}" sectionId="{{sectionIdSet ../../name ../sectionName}}">{{{this}}}</div>
+ {{/if}}
+
+
+
+
+
+  {{/each}}
+  </div>
+ 
+  </p>
+ 
+</div>
+
+<div class="ui divider"></div>
+{{/each}}
+
+<p>&nbsp;<br /></p>
+
+<button class="ui red button showMistakes">Show Mistakes</button>
+
+ <button class="ui primary button reset"> Reset Exam
+  </button>
+
+</div>
+</div>
+
+
+</template>
+
+
+

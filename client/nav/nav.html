@@ -1,0 +1,26 @@
+<template name="nav">
+
+<div class="ui fixed menu">
+  <a class="item">
+    <i class="sidebar icon" style="font-size:3em;"></i>
+  </a>
+</div>
+
+<div class="ui thin sidebar inverted vertical menu">
+  <a class="item {{isActiveRoute regex='home'}}" href="{{pathFor 'home'}}">
+    <i class="home icon"></i> Home
+  </a>
+
+  {{#each exams}}
+
+  <a class="item {{isActivePath regex=_id}}" href="/exams/{{name}}/{{_id}}">{{name}}</a>
+  
+  {{/each}}
+  <a class="item " ></a>
+
+
+</div>
+
+
+
+</template>

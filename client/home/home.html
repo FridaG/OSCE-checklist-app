@@ -1,0 +1,24 @@
+<template name="home">
+ <div class="row" style="min-height:400px">
+  <div class="column">
+
+ 
+  <h1>Please pick an OSCE exam to practice</h1>
+  
+
+{{#each exams}}
+
+  <h3><a href="/exams/{{name}}/{{_id}}">{{name}}</a></h3>
+ 
+{{/each}}
+
+
+  
+
+
+ </div>
+
+</div>
+
+</template>
+

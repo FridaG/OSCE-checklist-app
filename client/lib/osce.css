@@ -1,0 +1,324 @@
+body {
+    background-image: linear-gradient(to bottom, #315481, #918e82 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*overflow-y: scroll; /* has to be scroll, not auto */
+    /*-webkit-overflow-scrolling: touch; */
+
+}
+
+body.pushable > .pusher {
+    /*background-image: linear-gradient(to bottom, #315481, #918e82 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+    background:#444;
+    /*overflow-y: scroll; /* has to be scroll, not auto */
+    /*-webkit-overflow-scrolling: touch;*/
+    -webkit-transition: -webkit-transform 300ms ease !important;
+    transition: transform 300ms ease !important;
+}
+
+.pushable > .fixed {
+    -webkit-transition: -webkit-transform 300ms ease !important;
+    transition: transform 300ms ease !important;
+}
+
+.pushable{
+    height:auto;
+
+}
+
+.pushable.pusher:after{
+    -webkit-transition: -webkit-transform 300ms, opacity 300ms !important;
+    transition: transform 300ms, opacity 300ms !important;
+}
+
+
+
+p{
+    margin-left:2em;
+}
+
+p::selection { background: #FFFB00; }
+.ui.list::selection { background: #FFFB00; }
+.osceItem::selection{ background: #FFFB00; }
+
+
+
+.ui.fixed.menu{
+    background-color:transparent;
+    border:0px;
+    border-color:transparent;
+    width:auto;
+    box-shadow:none;
+    top:10px
+    left:10px;
+}
+
+.ui.menu{
+    box-shadow:transparent;
+
+}
+
+.ui.menu .item  {
+    color: rgba(12, 192, 210, 0.8);
+    border:0px;
+    box-shadow:none;
+
+}
+
+.ui.menu .item a  {
+    border:0px;
+    box-shadow:none;
+}
+
+
+.ui.sidebar.inverted.vertical.menu{
+    background-image: linear-gradient(to bottom, #d0edf5, #e1e5f0 100%);
+    background: linear-gradient(to bottom, #AAE2D8, #CECBE8 100%);
+    height:100%;
+    overflow-y: scroll; 
+    -webkit-overflow-scrolling: touch;
+
+}
+
+.pusher{
+    background:transparent;
+    background-color:transparent;
+}
+
+.ui.inverted.menu .item, .ui.inverted.menu .item > a:not(.ui){
+    color:#444444;
+}
+
+.ui.inverted.menu .active.item{
+    color: #FF37B5 !important;
+    font-weight:bold;
+}
+
+
+
+
+h1 {
+    color: #FFFFFF;
+}
+
+h3 {
+    color:#FFC9C9;
+}
+
+
+
+
+
+
+.osceItem {
+    font-size:2em;
+    cursor:pointer;
+}
+
+div.osceItem, span.osceItem{
+    display:inline-block;
+}
+
+.checked {
+    /*color: #cccccc !important;*/ 
+    color: rgba(204, 204, 204, 0.44) !important;
+    text-decoration: line-through;
+}
+
+.completedSection{
+    
+    /*background-color: rgba(91, 212, 118, 0);
+    animation-name: success;
+    animation-duration: 0.3s;
+    animation-iteration-count:1;
+    animation-timing-function:linear;
+    animation-fill-mode: forwards;
+
+    -webkit-animation-name: success;
+    -webkit-animation-duration: 0.3s;
+    -webkit-animation-iteration-count:1;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-fill-mode: forwards;*/
+    animation: greenSwell 0.3s linear;
+    animation-fill-mode: forwards;
+
+    -webkit-animation-name:greenSwell;
+    -webkit-animation-duration: 0.3s;
+    -webkit-animation-iteration-count:1;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-fill-mode:forwards;
+}
+
+.osceSection.completedSection > p > .ui.list > .item.osceItem.checked, 
+.osceSection.completedSection > p > .ui.list > p > span.osceItem.checked {
+    color: #73FF7A !important; 
+   
+    /*animation-name: sparkle;
+    animation-duration: 0.3s;
+    animation-iteration-count:1;
+    animation-timing-function:linear;
+    animation-fill-mode: forwards;
+
+    -webkit-animation-name: sparkle;
+    -webkit-animation-duration: 0.3s;
+    -webkit-animation-iteration-count:1;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-fill-mode: forwards; */
+}
+
+@keyframes greenSwell {
+    /*scale the element to 250% to safely cover the entire link and fade it out*/
+    0% {color:rgba(204, 204, 204, 0.44); transform: translateY(0);}
+    20% { transform: translateY(-10px);}
+    50% { transform: translateY(2px);}
+    70% { transform: translateY(4px);}
+    100% {color:#73FF7A; transform: translateY(0);}
+}
+
+@-webkit-keyframes greenSwell {
+    /*scale the element to 250% to safely cover the entire link and fade it out*/
+    0% {color:rgba(204, 204, 204, 0.44); transform: translateY(0);}
+    20% { -webkit-transform: translateY(-10px);}
+    50% { -webkit-transform: translateY(2px);}
+    70% { -webkit-transform: translateY(4px);}
+    100% {color:#73FF7A; -webkit-transform: translateY(0);}
+}
+
+.completedSection:after {
+    color:#FFF;
+    content: " Finished Section!";
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+    animation: ripple 0.5s linear;
+    animation-fill-mode: forwards;
+
+    -webkit-animation-name:ripple;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-iteration-count:1;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-fill-mode:forwards;
+}
+@keyframes ripple {
+    /*scale the element to 250% to safely cover the entire link and fade it out*/
+    0% {opacity: 1; transform: scale(1);}
+    100% {opacity: 0; transform: scale(3.5);}
+}
+
+@-webkit-keyframes ripple {
+    /*scale the element to 250% to safely cover the entire link and fade it out*/
+    0% {opacity: 1; -webkit-transform: scale(1);}
+    100% {opacity: 0; -webkit-transform: scale(3.5);}
+}
+
+.completedSection > h3 {
+    color:#26AFD0;
+    
+    /*animation: swell 0.3s linear;
+    animation-fill-mode: forwards;
+
+    -webkit-animation-name:swell;
+    -webkit-animation-duration: 0.3s;
+    -webkit-animation-iteration-count:1;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-fill-mode:forwards;*/
+}
+
+.completedSection >h3:after {
+    content:'\00a0 \2714';
+    font-size:2em;
+    position:absolute;
+    color:#73FF7A;
+}
+
+@keyframes swell {
+    0% {color:#FFC9C9; }
+    100% {color:#26AFD0;}
+}
+
+@-webkit-keyframes swell {
+    0% {color:#FFC9C9; }
+    100% {color:#26AFD0;}
+}
+
+
+.completedSection > .ui.list > .checked{
+    /*color:#26AFD0;*/
+}
+
+.osceSection.completedSection > p > .ui.list > .item.osceItem.subsection {
+    /*color:#26AFD0;*/
+    color:rgb(0, 183, 9);
+    text-decoration: line-through;
+
+}
+
+@keyframes sparkle {
+   
+    0% {color:#A4D0C0; }
+    40%{color:#D2D2D2;}
+    100%{color:#73FF7A}
+}
+
+@-webkit-keyframes sparkle {
+   
+    0% {color:#A4D0C0; }
+    40%{color:#D2D2D2;}
+    100%{color:#73FF7A}
+}
+
+
+
+.menu {
+     background-image: linear-gradient(to bottom, #d0edf5, #e1e5f0 100%);
+}
+
+p {
+    color:#8CEADA;
+}
+
+.item.osceItem.subsection{
+    font-size:1.5em;
+    cursor:inherit;
+    color:#DA9CEC;
+
+}
+
+.item.osceItem.subsection > span{
+    /*border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    padding-bottom:5px;*/
+}
+
+.osceSection{
+    padding:0px 0px 10px 10px;
+    
+}
+
+
+
+
+/*@keyframes success {
+   
+    0% {background-color: rgba(91, 212, 118, 0); }
+    20% {background-color: rgba(172, 243, 188, 0.2);}
+    100%{background-color: rgba(91, 212, 118, 0.4);}
+}
+
+@-webkit-keyframes success {
+   
+    0% {background-color: rgba(91, 212, 118, 0); }
+    20% {background-color: rgba(172, 243, 188, 0.2);}
+    100%{background-color: rgba(91, 212, 118, 0.4);}
+} */
+
+
+
+
+
+
+
+

@@ -1,0 +1,541 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"calendar",
+				"calendarModal"
+			],
+			[
+				"Sessi",
+				"Session.get	Meteor: Session.get(key)"
+			],
+			[
+				"for",
+				"formattedAddress"
+			],
+			[
+				"back",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "client/exam/examView.html",
+			"settings":
+			{
+				"buffer_size": 2339,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Sara/nodeJs_sites/osce"
+	],
+	"file_history":
+	[
+		"/Users/Sara/nodeJs_sites/pblCMS/public/medical_roots.js",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/allEvents/eventView.js",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/home/home.html",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/allEvents/eventView.html",
+		"/Users/Sara/nodeJs_sites/pblCMS/server/methods.js",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/nav/nav.js",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/calendar/adminCalendar.js",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/calendar/adminCalendar.html",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/lib/pblCMS.css",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/home/home.js",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/allEvents/allEvents.js",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/layout/homeLayout.html",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/nav/nav.html",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/router.js",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/layout/loading.js",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/lib/globalSettings.js",
+		"/Users/Sara/nodeJs_sites/pblCMS/events schem",
+		"/Users/Sara/nodeJs_sites/pblCMS/dev_settings.json",
+		"/Users/Sara/nodeJs_sites/pblCMS/lib/collections.js",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/calendar/userCalendar.js",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/myUploads/myUploads.html",
+		"/Users/Sara/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/Sara/Library/Application Support/Sublime Text 3/Packages/User/HTML.sublime-settings",
+		"/Applications/Pomodoro One.app/Contents/Info.plist",
+		"/Users/Sara/nodeJs_sites/pblCMS/server/server.js",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/calendar/userCalendar.html",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/layout/calendarLayout.html",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/lib/custom.semantic.json",
+		"/Users/Sara/nodeJs_sites/pblCMS_AWS/dev_settings.json",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/nav/footer.html",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/allEvents/semesterView.html",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/myUploads/myUploads.js",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/calendar/calendar.js",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/home/homeModal.js",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/allEvents/semesterView.js",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/calendar/calendar.html",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/allEvents/allEvents.html",
+		"/private/var/folders/81/4lqdntkd7nn4ylzr2vqblx940000gp/T/5e735eeb-592f-42e4-be37-e050ca4a5d79/etc/nginx/nginx.conf",
+		"/Users/Sara/Documents/On Intimacy/on intimacy---1) hospital-2).textClipping",
+		"/Users/Sara/nodeJs_sites/pblCMS/lib/settings.json",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/layout/loginTemplate.html",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/layout/layout.html",
+		"/Users/Sara/nodeJs_sites/pblCMS/lib/login.js",
+		"/Users/Sara/Documents/Season 115 soundtrack.txt",
+		"/Users/Sara/Library/Application Support/Sublime Text 3/Packages/User/bh_core.sublime-settings",
+		"/Users/Sara/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Sara/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/private/var/folders/81/4lqdntkd7nn4ylzr2vqblx940000gp/T/662bd3bd-785f-4524-8f08-3844c05b1310/www/pdfSearch/Templates/HomepageUsefulLinks.html",
+		"/private/var/folders/81/4lqdntkd7nn4ylzr2vqblx940000gp/T/0b4566e0-da9b-404a-be7c-0ae7978ff45f/User/Media/iTunes_Control/iTunes/iTunes Library.itlp/DBTemp/Backup/iTunes_Control/iTunes/iTunes Library.itlp/Library.itdb",
+		"/Users/Sara/dumps/pdfsearchServerpush.sql",
+		"/Users/Sara/Desktop/Programming/regex:queries/fog_scripts.sql",
+		"/Users/Sara/Google Drive/for Nicole/AA read first!!.txt",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/layout/loading.html",
+		"/Users/Sara/nodeJs_sites/pblCMS/public/convertTo.js",
+		"/Users/Sara/Desktop/mongo_install.bash",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/allEvents/commentsView.html",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/allEvents/commentsView.js",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/allUploads/eventView.html",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/allUploads/eventView.js",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/allUploads/allUploads.js",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/allUploads/allUploads.html",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/allUploads/uploadsView.js",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/allUploads/uploadsView.html",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/myFQs/myFQs.js",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/myFQs/myFQs.html",
+		"/Users/Sara/nodeJs_sites/pblCMS/lib/config/login.js",
+		"/Users/Sara/nodeJs_sites/pblCMS/settings.json",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/pastUploads/pastUploads.html",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/pastUploads/pastUploads.js",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/login/login.html",
+		"/Users/Sara/nodeJs_sites/pblCMS/server/lib/email.js",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/login/login.js",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/pblCMS.html",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/pblCMS.js",
+		"/Users/Sara/nodeJs_sites/pblCMS/client/pblCMS.css",
+		"/Users/Sara/Desktop/Charles schwab --David Lempe.textClipping",
+		"/private/var/folders/81/4lqdntkd7nn4ylzr2vqblx940000gp/T/9a18f8a3-2186-4f56-abc7-e39e11173573/home2/fogmagne/public_html/davidlempert/index.html",
+		"/private/var/folders/81/4lqdntkd7nn4ylzr2vqblx940000gp/T/9a18f8a3-2186-4f56-abc7-e39e11173573/home2/fogmagne/public_html/davidlempert/Lempert_David_CV.pdf",
+		"/Users/Sara/nodeJs_sites/Geo4/client/lib/idangerous.swiper.min.js",
+		"/Users/Sara/nodeJs_sites/Geo4/client/emergencyGISMeteor.js",
+		"/Users/Sara/nodeJs_sites/Geo4/client/templates/home/slider.html",
+		"/Users/Sara/nodeJs_sites/Geo4/client/router.js",
+		"/Users/Sara/nodeJs_sites/Geo4/client/latLng.js",
+		"/Users/Sara/nodeJs_sites/emergencyGISMeteor3/lib/collections.js",
+		"/Users/Sara/nodeJs_sites/emergencyGISMeteor3/client/emergencyGISMeteor.html",
+		"/Users/Sara/nodeJs_sites/emergencyGISMeteor3/client/emergencyGISMeteor.css",
+		"/Users/Sara/Downloads/jQuery-Plugin-To-Popup-A-Modal-Window-with-Blurred-Background-BlurBox/index.html",
+		"/Users/Sara/nodeJs_sites/anaesthesiaJournals/client/templates/journals/journals.js",
+		"/Users/Sara/nodeJs_sites/anaesthesiaJournals/client/templates/release/release.html",
+		"/Users/Sara/nodeJs_sites/anaesthesiaJournals/client/templates/journals/journals.html",
+		"/Users/Sara/nodeJs_sites/anaesthesiaJournals/server/server.js",
+		"/Users/Sara/nodeJs_sites/anaesthesiaJournals/client/router.js",
+		"/Users/Sara/nodeJs_sites/anaesthesiaJournals/client/templates/navigation/footer.html",
+		"/Users/Sara/nodeJs_sites/anaesthesiaJournals/client/anaesthesiaJournals.css",
+		"/Users/Sara/nodeJs_sites/anaesthesiaJournals/client/templates/layout/layout.html",
+		"/Users/Sara/nodeJs_sites/anaesthesiaJournals/lib/collections.js",
+		"/Users/Sara/nodeJs_sites/anaesthesiaJournals/client/templates/about_contribute/about_contribute.html",
+		"/Users/Sara/nodeJs_sites/anaesthesiaJournals/client/templates/about_contribute/about_contribute.js",
+		"/Users/Sara/nodeJs_sites/anaesthesiaJournals/client/templates/layout/homeLayout.html",
+		"/Users/Sara/nodeJs_sites/anaesthesiaJournals/client/templates/home/home.html",
+		"/Users/Sara/nodeJs_sites/anaesthesiaJournals/client/templates/home/homeSVGtemplates.html",
+		"/Users/Sara/nodeJs_sites/anaesthesiaJournals/client/templates/navigation/navTop.js",
+		"/Users/Sara/nodeJs_sites/anaesthesiaJournals/client/templates/home/home.js",
+		"/Users/Sara/nodeJs_sites/anaesthesiaJournals/client/templates/home/homeSVGtemplates.js",
+		"/Users/Sara/nodeJs_sites/apiDemo/client/templates/home/home.js",
+		"/Users/Sara/nodeJs_sites/ical1.js",
+		"/Users/Sara/Downloads/42987446_Calendar_20150208.ics",
+		"/Users/Sara/nodeJs_sites/todos/client/templates/todos-item.js",
+		"/Users/Sara/nodeJs_sites/todos/client/templates/todos-item.html",
+		"/Users/Sara/nodeJs_sites/todos/client/templates/lists-show.js",
+		"/Users/Sara/nodeJs_sites/todos/client/templates/lists-show.html",
+		"/Users/Sara/nodeJs_sites/todos/client/templates/app-body.html",
+		"/Users/Sara/nodeJs_sites/todos/client/templates/app-body.js",
+		"/Users/Sara/nodeJs_sites/todos/client/templates/lists-show.import.less",
+		"/Users/Sara/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/Sara/nodeJs_sites/anaesthesiaJournals/client/templates/navigation/navTop.html",
+		"/Users/Sara/nodeJs_sites/anaesthesiaJournals/client/templates/layout/homeLayout.js",
+		"/Users/Sara/nodeJs_sites/anaesthesiaJournals/client/templates/navigation/navBottom.html",
+		"/Users/Sara/nodeJs_sites/anaesthesiaJournals/client/templates/journals/datatable.js",
+		"/Users/Sara/nodeJs_sites/anaesthesiaJournals/client/templates/journals/datatable.html",
+		"/Users/Sara/nodeJs_sites/anaesthesiaJournals/client/stylesheets/app.scss",
+		"/Users/Sara/nodeJs_sites/anaesthesiaJournals/lib/custom.bootstrap.json",
+		"/Users/Sara/nodeJs_sites/anaesthesiaJournals/client/templates/Journals/journals.js",
+		"/Users/Sara/nodeJs_sites/anaesthesiaJournals/client/templates/Journals/journals.html",
+		"/Users/Sara/nodeJs_sites/FUCK/FUCK.js",
+		"/Users/Sara/nodeJs_sites/anaesthesiaJournals/collections.js",
+		"/Users/Sara/nodeJs_sites/demoApp/www/css/style.css",
+		"/Users/Sara/Downloads/launch.jsp"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Examples",
+			"Meaning",
+			"Affix",
+			"meteor.cal",
+			"edit",
+			"otherUp",
+			"otheruploa",
+			"calendarM",
+			"tag",
+			"uploadTit",
+			"div",
+			"class",
+			"div",
+			"subtopi",
+			"uploadT",
+			"semes",
+			"modal('hide')",
+			"",
+			" ",
+			"would",
+			"path",
+			"file.na",
+			".val",
+			"sessionbind",
+			"othercom",
+			".call",
+			"othercom",
+			"delete",
+			"associated",
+			"push: ",
+			"uploads",
+			"setDefau",
+			"new Mongo",
+			"new Mon",
+			"uploaderCom",
+			"uploa",
+			"othercom",
+			"uploadtitle",
+			"associatedUploadId",
+			"toggle",
+			"uploadID",
+			"uploadTitleE",
+			"otherco",
+			"events",
+			"uploadTopic",
+			"uploads",
+			"body",
+			"background",
+			".pag",
+			"style",
+			"snapGrid",
+			"swipeNext",
+			"toNext",
+			"swipeNext",
+			"bounce",
+			"\"JournalCover\":\"\",",
+			"oner",
+			"journ",
+			"journal",
+			"equipment",
+			"nav",
+			"journal",
+			"topicbox",
+			"focus",
+			"super+alt+f",
+			"super+f",
+			"replace",
+			"find",
+			"editingList",
+			".dataTable",
+			"sort",
+			"hov",
+			"#custom-bootstrap-menu",
+			"margin-r",
+			">",
+			"false",
+			"h1",
+			"false",
+			"^(?:[\\t ]*(?:\\r?\\n|\\r))+",
+			"\\n\\l",
+			"\\n",
+			"a suppur",
+			"suppura",
+			"prologue",
+			"1255",
+			"<script",
+			"body",
+			"Orthopaedic",
+			"<img src",
+			"issues/yr",
+			"No. of issues/yr",
+			"csv",
+			"col-sm-6",
+			"xs-6",
+			"sm-6",
+			"<div",
+			"/aeg",
+			"propertyin",
+			"select",
+			"unique"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"description",
+			"price",
+			"title",
+			"",
+			"\"JournalCover\":\"/img/errorImage.png\",",
+			"monitoring",
+			".table",
+			"",
+			"true",
+			"",
+			"<img height='200' src",
+			"<img height='100' src",
+			"<img height='40' src",
+			"<img height=\"40\" src",
+			"IssuesYear",
+			"issues/yr",
+			"col-sm-6 col-xs-1-offset-3",
+			"col-sm-6 col-xs-6",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "client/exam/examView.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2339,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "osce.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 251.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
